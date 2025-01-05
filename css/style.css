@@ -540,6 +540,16 @@ h3.my-profession {
   font-size: 25px;
   color: #ffffff;
 }
+.service .service-item .service-item-inner .icon .fab {
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--skin-color);
+  transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner:hover .icon .fab {
+  font-size: 25px;
+  color: #ffffff;
+}
 .service .service-item .service-item-inner h4 {
   font-size: 18px;
   margin-bottom: 15px;

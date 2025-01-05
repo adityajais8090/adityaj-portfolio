@@ -74,5 +74,9 @@ function asideSectionTogglerBtn() {
     }
 }
 function sendEmail() {
-    window.location.href = "mailto:bhrigunathjaiswal65@gmail.com";
+    const email = "bhrigunathjaiswal65@gmail.com";
+    const subject = "Hello!";
+    const body = "Thanks for visiting. Love to hear your response";
+    const url = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.open(url, '_blank');
   }
