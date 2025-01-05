@@ -73,3 +73,6 @@ function asideSectionTogglerBtn() {
         allSection[i].classList.toggle("open");
     }
 }
+function sendEmail() {
+    window.location.href = "mailto:bhrigunathjaiswal65@gmail.com";
+  }
