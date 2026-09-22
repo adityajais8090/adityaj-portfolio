@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: v3.7.3
+    hooks:
+      - id: prettier
+        files: \.(html|css|js)$
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v9.9.0
+    hooks:
+      - id: eslint
+        files: \.js$
